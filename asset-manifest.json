@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/simon-says-app/static/css/main.e760a263.css",
+    "main.js": "/simon-says-app/static/js/main.c5bc5b6a.js",
+    "static/js/592.7e377a8d.chunk.js": "/simon-says-app/static/js/592.7e377a8d.chunk.js",
+    "index.html": "/simon-says-app/index.html",
+    "main.e760a263.css.map": "/simon-says-app/static/css/main.e760a263.css.map",
+    "main.c5bc5b6a.js.map": "/simon-says-app/static/js/main.c5bc5b6a.js.map",
+    "592.7e377a8d.chunk.js.map": "/simon-says-app/static/js/592.7e377a8d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e760a263.css",
+    "static/js/main.c5bc5b6a.js"
+  ]
+}

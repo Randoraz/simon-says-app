@@ -2,37 +2,114 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 1rem;
+  font-size: 3rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+main {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.options-form {
+  width: 45rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.form-field {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.info-section {
+  width: 45rem;
+  text-align: left;
+}
+
+.buttons-section {
+  width: 20rem;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 10rem 10rem;
+  gap: 0.5rem;
+}
+
+.button {
+  height: 10rem;
+  width: 10rem;
+  box-shadow: none;
+  border: 1px solid white;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.light {
+  box-shadow: inset 10rem 10rem rgba(255, 255, 255, 0.3);
+}
+
+.shadow {
+  box-shadow: inset 10rem 10rem rgba(0, 0, 0, 0);
+}
+
+.shadow:hover {
+  box-shadow: inset 10rem 10rem rgba(0, 0, 0, 0.3);
+}
+
+.shadow:active {
+  box-shadow: inset 10rem 10rem rgba(0, 0, 0, 0.7);
+}
+
+.position-1 {
+  border-top-left-radius: 100%;
+}
+
+.position-2 {
+  border-top-right-radius: 100%;
+}
+
+.position-3 {
+  border-bottom-left-radius: 100%;
+}
+
+.position-4 {
+  border-bottom-right-radius: 100%;
+}
+
+.main-button {
+  padding: 1.5rem;
+  font-size: 3rem;
+  border-radius: 15px;
+  border: 2px solid white;
+  background-color: #282c34;
+  color: white;
+}
+
+.main-button:active {
+  border: 2px solid #282c34;
+  background-color: white;
+  color: #282c34;
 }
